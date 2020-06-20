@@ -1,0 +1,20 @@
+*{
+    font-size: 20px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    /* margin-top: 5%; */
+    padding: 1% 5%;
+}
+
+.form-group{
+    /* margin: 5% 0; */
+    padding: 5%;
+    width: 100%;
+}
+
+label{
+    margin-right: 2%;
+}

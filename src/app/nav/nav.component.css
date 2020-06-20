@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h1{
+    margin-top: 3%;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    /* padding: 2%; */
+    margin: 1%;
+    border-bottom: 1px solid grey;
+    /* width: 20px; */
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}

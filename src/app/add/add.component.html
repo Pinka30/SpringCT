@@ -1,0 +1,29 @@
+<!-- 
+(You can use windows session Storage to save the data). 
+User can enter any no. of records. Validations on these fields is nice to have feature. -->
+
+<div class="container">
+    <form #basicform="ngForm" (ngSubmit)=submitdata(basicform.value) class="form">
+    <div class="form-group">
+            <label for="inputbox">Text Box</label>
+            <input name="textBox" class="form-control" type="text" ngModel required>
+    </div>
+    <div class="form-group">
+        <label for="drpdownlist">Dropdown List</label>
+        <select name="dropdownList" class="form-control" ngModel id="drpdownlist">
+            <option>Option 1</option>
+            <option>Option 2</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="checkbox">Checkbox</label>
+        <input name="checkbox" ngModel id="checkbox" type="checkbox">     
+    </div>
+    <div class="form-group">
+        <label for="txtarea">Textarea</label>  
+        <textarea name="txtarea" ngModel class="form-control" id="txtarea" rows="3"></textarea>
+    </div>
+
+        <button type="btn submit btn-primary">Submit</button>
+    </form>
+</div>

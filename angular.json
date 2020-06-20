@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "springct"
+    }
+  },
+  "defaultProject": "springct",
+  "cli": {
+    "analytics": "17d841fe-d76f-45a8-82d3-4ca8cbaf8f50"
+  }
 }
